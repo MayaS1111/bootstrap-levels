@@ -1,0 +1,98 @@
+.unobtrusive {
+  background-color: white;
+}
+.obtrusive{
+  color: white;
+}
+.unobtrusive:hover {
+  color: white;
+  border: solid 2px white;
+} 
+
+a{
+  font-size: 17px; 
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 6px;
+  border: hide;
+  margin: 3px 3px;
+}
+
+
+.primary{
+  background-color: royalblue;
+}
+.primary-U{
+  border: solid 2px royalblue;
+  color: royalblue;
+}
+.primary:hover, .primary-U:hover{
+  background-color: darkblue;
+}
+
+
+.secondary{
+  background-color: gray;
+}
+.secondary-U{
+  border: solid 2px gray;
+  color: gray;
+}
+.secondary:hover, .secondary-U:hover{
+  background-color: darkgray;
+}
+
+.success{
+  background-color: green;
+}
+.success-U{
+  border: solid 2px green;
+  color: green;
+}
+.success:hover, .success-U:hover{
+  background-color: darkgreen;
+}
+
+.danger{
+  background-color: red;
+}
+.danger-U{
+  border: solid 2px red;
+  color: red;
+}
+.danger:hover, .danger-U:hover{
+  background-color: darkred;
+}
+
+.warning{
+  background-color: yellow;
+  color: black
+}
+.warning-U{
+  border: solid 2px yellow;
+  color: yellow;
+}
+.warning:hover{
+  background-color: rgba(255, 255, 0, 0.591);
+}
+.warning-U:hover{
+  background-color: rgba(255, 255, 0, 0.591);
+  color: black;
+}
+
+.info{
+  background-color: cyan;
+  color: black;
+}
+.info-U{
+  border: solid 2px  cyan ;
+  color: cyan;
+}
+.info:hover{
+  background-color: darkcyan;
+}
+.info-U:hover{
+  background-color: darkcyan;
+  color: black;
+}
